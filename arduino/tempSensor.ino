@@ -49,6 +49,6 @@ void loop() {
   steinhart = (steinhart * 9.0)/ 5.0 + 32.0; 
 
   Serial.println(steinhart);
-  delay(300000);
+  delay(5000);
 }
 
