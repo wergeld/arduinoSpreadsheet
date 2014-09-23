@@ -46,7 +46,7 @@ void loop() {
   steinhart += 1.0 / (TEMPERATURENOMINAL + 273.15); // + (1/To)
   steinhart = 1.0 / steinhart;                 // Invert
   steinhart -= 273.15;                         // convert to C
-  steinhart = (steinhart * 9.0)/ 5.0 + 32.0; 
+  steinhart = (steinhart * 9.0)/ 5.0 + 32.0;   // convert to F
 
   Serial.println(steinhart);
   delay(5000);
